@@ -4,6 +4,7 @@ pipeline {
     tools {
         dockerTool 'Docker'
     }
+    
 
     environment {
         DOCKER_IMAGE = 'shray26/simple_app'
